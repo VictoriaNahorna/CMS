@@ -1,0 +1,41 @@
+$dark_black: #212121;
+$light_black: #E0E0E0;
+$purple: #455A64;
+$dark_red: #EEEEEE;
+$light_red: #8D6E63;
+$dark_violet: #523d66;
+$dark_green: #3E2723;
+$light_green: #CFD8DC;
+$dark_blue: #455A64;
+$light_blue: #FF8A65;
+$dark_yellow: #81C784;
+$light_yellow: #80CBC4;
+$dark_purple: #8D6E63;
+$light_purple:#EEEEEE;
+$white_purple: #b4a9b8; 
+
+$le_hover: rgba(149, 117, 205, 0.5);
+
+
+@mixin margin ($vertical, $horisontal) {
+	margin: $vertical $horisontal;
+}
+@mixin padding ($vertical, $horisontal) {
+	padding: $vertical $horisontal;
+}
+
+
+.interface_tile {
+	background-color: $light_black;
+	@include margin (5px, 5px);
+	@include padding (10px, 10px);
+	width: 30%;
+}
+.interface_by_Vue {
+	background-color: $purple;
+	border: 1px solid  $dark_violet;
+	text-align: center;
+	color: $light_black;
+	margin: 20px 0 100px;
+	padding: 40px 0 ;
+}

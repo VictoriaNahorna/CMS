@@ -1,0 +1,32 @@
+body {
+	margin: 0 auto;
+	width: 1024px;
+	text-align: center;
+}
+img{
+  height: 200px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+div {
+	float: left;
+	width: 327px;
+	height: 200px;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+.firstSquare {
+
+	margin-left: 0;
+}
+.thirdSquare {
+
+	margin-right: 0;
+}
+.rectangle {
+
+	width: 1022px;
+	height: 150px;
+	border: 1px solid green;
+
+}

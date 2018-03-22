@@ -1,0 +1,113 @@
+body {
+	margin: 0 auto;
+	width: 1024px;
+	text-align: center;
+}
+img{
+  height: 200px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+div {
+	float: left;
+	width: 327px;
+	height: 200px;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+.firstSquare {
+
+	margin-left: 0;
+}
+.thirdSquare {
+
+	margin-right: 0;
+}
+.rectangle {
+
+	width: 1022px;
+	height: 150px;
+	border: 1px solid green;
+
+}
+.iconCtrl{
+  width: 35px;
+  height: 35px;
+  float: left;
+  background: url(../img/user_icons/css_sprites.png);
+  background-size: 105px;
+  margin-right:35px;
+}
+.back{
+  width: 35px;
+  height: 35px;
+  float: left;
+  background: url(../img/user_icons/back.png) no-repeat;
+  background-size: 24px;
+  background-position: 6px 3px;
+  margin:10px;
+  margin-right:44px;
+}
+.spriteCtrl-messages {
+  background-position: -942px 3px;
+}
+.spriteCtrl-settings {
+  background-position: -942px -32px;
+}
+.spriteCtrl-user-bold {
+  background-position: -1117px 1px;
+}
+
+.spriteCtrl-user {
+  background-position: -979px -36px;
+}
+.spriteCtrl-plane {
+  background-position: -666px -72px;
+}
+.spriteCtrl-view {
+  background-position: -1119px -35px;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  float: left;
+  background: url(../img/css_sprites.png);
+  background-size: 105px;
+  margin:10px;
+  margin-right:40px;
+
+}
+.sprite-home {
+  background-position: -1014px 0px;
+}
+.sprite-settings {
+  background-position: 1px -70px;
+}
+.sprite-file {
+  background-position: -560px -561px;
+}
+
+.sprite-chat-bubbles {
+  background-position: -560px 104px;
+}
+.sprite-clipboard {
+  background-position: 0px -560px;
+}
+
+.sprite-spreadsheet{
+  background-position: -560px -1121px;
+}
+
+.sprite-bar-chart{
+  background-position: -1050px -526px;
+}
+.sprite-mechanic-tools {
+  background-position: -1119px -560px;
+}
+
+.right-arrow{
+  background: url(../../assets/img/right-arrow.png) no-repeat;
+  background-size: 25px;
+  background-position: 7px 7px;
+}
+
