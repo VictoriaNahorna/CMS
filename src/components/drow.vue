@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import * as PIXI from 'pixi.js'
+/*import * as PIXI from 'pixi.js'*/
+import * as PIXI from './pixi.min.js'
 	export default {
 		data () {
 		    return {
